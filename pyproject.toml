@@ -1,0 +1,8 @@
+[project]
+name = "router"
+version = "1.0.0"
+description = "route every prompt to the cheapest model that can handle it"
+requires-python = ">=3.9"
+
+[project.scripts]
+router = "router.cli:main"
