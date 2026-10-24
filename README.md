@@ -16,8 +16,8 @@ it walks up to the next tier instead of just dying. every decision gets
 logged with tokens, cost, and latency so `router stats` tells me what
 i actually spent and where.
 
-i avoided argparse subcommand boilerplate guilt by just writing it, and
-there are no dependencies on purpose. the http client is urllib, the log
+i wrote the argparse subcommands by hand and there are no dependencies
+on purpose. the http client is urllib, the log
 is jsonl in ~/.router, the config is one json file. i did not want another
 daemon or database for this.
 
